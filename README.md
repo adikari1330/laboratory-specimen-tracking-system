@@ -34,24 +34,17 @@ This dataset is suitable for clinical data analysis, specimen tracking simulatio
 
 🔧 Technologies Used
 Python 3
-
 Google Colab
-
 Pandas
-
 NumPy
-
 Matplotlib
-
 Seaborn
 
 🧼 Data Cleaning & Preparation
 The dataset required several preprocessing steps to ensure accurate analysis:
 
 Missing values (represented as ".") were cleaned and converted to proper null values.
-
 Date fields contained mixed formats and extra spaces, so they were stripped and safely converted into datetime objects.
-
 All fields were validated to ensure consistency before visualisation.
 
 📈 Visualisations
@@ -61,41 +54,37 @@ This project includes multiple visualisations to understand clinical patterns an
 A bar chart showing how many patients fall into each cancer stage.
 This helps identify which tumour stages are most common in the cohort.
 
-2. Survival Status (Dead vs Alive)
+
+3. Survival Status (Dead vs Alive)
 A count plot showing the number of patients who survived versus those who did not.
 Useful for understanding overall cohort outcomes.
 
-3. Time-to-Event Distribution
+4. Time-to-Event Distribution
 A histogram showing the distribution of survival time (in days).
 This highlights how long patients lived after specimen collection.
 
-4. Specimen Collection Timeline
+5. Specimen Collection Timeline
 A line plot showing how specimen collection dates are distributed over time.
 This visualises specimen flow and collection frequency.
 
-5. Survival Time by Stage (Boxplot)
+6. Survival Time by Stage (Boxplot)
 A boxplot comparing survival time across tumour stages.
 This helps identify whether certain stages correlate with shorter or longer survival.
 
-6. Sex Distribution
+7. Sex Distribution
 A simple bar chart showing male vs female distribution.
 
-7. Race Distribution
+8. Race Distribution
 A bar chart showing racial distribution within the cohort.
 
 All visualisations were generated in Google Colab using Matplotlib and Seaborn.
 
 🧪 Specimen Tracking Simulation
 Although the dataset is clinical, it is used to simulate:
-
 Specimen registration
-
 Specimen timeline tracking
-
 Outcome monitoring
-
 Stage-based specimen grouping
-
 Time-based specimen analysis
 
 This aligns with real laboratory workflows used in Victoria.
@@ -112,13 +101,9 @@ All visualisations will be generated automatically.
 
 🔮 Future Improvements
 Add Stage 0 specimens
-
 Integrate Kaplan–Meier survival curves
-
 Build a specimen tracking dashboard
-
 Add machine learning predictions
-
 Connect to a mock LIMS (Laboratory Information Management System)
 
 📬 Author
