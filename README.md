@@ -11,29 +11,20 @@ The dataset contains 30 patient records, each representing a specimen collected 
 Columns included:
 
 PatientID
-
 Specimen date
-
 Dead or Alive
-
 Date of Death
-
 Date of Last Follow Up
-
 sex
-
 race
-
 Stage
-
 Event
-
 Time
 
 This dataset is suitable for clinical data analysis, specimen tracking simulation, survival analysis, stage-based comparison, and visualisation practice.
 
 🔧 Technologies Used
-Python 3
+Python
 Google Colab
 Pandas
 NumPy
@@ -53,7 +44,6 @@ This project includes multiple visualisations to understand clinical patterns an
 1. Stage Distribution
 A bar chart showing how many patients fall into each cancer stage.
 This helps identify which tumour stages are most common in the cohort.
-
 
 3. Survival Status (Dead vs Alive)
 A count plot showing the number of patients who survived versus those who did not.
